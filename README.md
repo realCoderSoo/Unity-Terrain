@@ -1,6 +1,6 @@
 # Unity-Terrain
 
-The program creates a Unity terrain and add features of interest. This lab script specifies steps to be
+The program creates a Unity terrain and add features of interest. The script specifies steps to be
 followed, but the end result will be whatever you wish to put together.
 
 1 Creating a Terrain
