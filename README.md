@@ -2,7 +2,9 @@
 
 The program creates a Unity terrain and add features of interest. This lab script specifies steps to be
 followed, but the end result will be whatever you wish to put together.
+
 1 Creating a Terrain
+
 • Create a new 3D Project.
 • Save the current scene in the assets directory, or a suitable folder inside it.
 • Import the supplied assets for this lab (see module website) by unzipping the provided zip file and moving
@@ -13,6 +15,8 @@ the Provided folder into the Assets folder of your Unity project.
 associated terrain asset in the Project view, which stores the data for the terrain. You can rename this
 asset if you wish, but do not delete it!
 • You may wish to move the camera further out, as the created terrain will be large.
+
+
 2 Shaping the Terrain
 • When the terrain is selected, you will have access to some terrain-specific tools in the Inspector. If you
 cannot see these tools, the terrain object is not selected.
@@ -40,6 +44,8 @@ it does provide standard assets. In the Project View, open the folder Standard A
 if the prefab is stretched too far.
 • Other water assets are available, and the capabilities and performances of each differ. It’s advised to use
 the prefabs provided instead of the raw assets.
+
+
 3 Adding Textures to the Terrain
 • Select the fourth tool with the terrain selected, Paint Texture.
 • Before you can begin to paint textures onto the landscape, you need to set them up first.
@@ -56,6 +62,8 @@ being used with different ones while keeping the terrain data of how they show u
 • There is a limit of textures for the terrain, after which any future textures added will not be taken into
 account. Try to stay around 4.
 • Try adding different textures for different elevations, or drawing paths.
+
+
 4 Adding Trees, Rocks and Grass
 • Select the fifth tool with the terrain selected, Place Trees.
 • As before with textures, we need trees to place. However, we need to add the trees to place them.
@@ -82,7 +90,9 @@ and dry colours to different shades of grey.
 It is also helpful to set the opacity and target strength very, very low.
 • Place all the trees, grass and rocks you want, but keep in mind that performance can be heavily affected
 by trees and detail objects.
-25 Adding Wind and Sounds
+
+
+5 Adding Wind and Sounds
 • Add a WindZone to the scene. GameObjects ! 3D Object ! Wind Zone
 • Wind Zones can be directional (globally affecting wind) or spherical (wind that only affects a certain
 radius). Set the Wind Zone to Directional.
@@ -103,6 +113,8 @@ and 1.
 drops off the further away you are. You can adjust how far the sound carries and also how sharply the
 volume drops off the further away you are with the 3D Sound Settings in the Audio Source settings for
 the game object.
+
+
 6 Day and Night Cycle
 • In the same way that the camera’s transform can be animated, a light’s properties can also be animated.
 • Select the Directional Light in the scene and rename it to \Sun". Set its rotation to (0, 0, 0).
@@ -134,7 +146,9 @@ up, select the orange box. Change the Speed to 0:02 for a faster cycle, or to 0:
 the values as you see fit.
 • Optional: Using the idea of animating intensities, you could add and animate a Point Light that only
 lights up a small area during the night.
-37 Animating the Camera
+
+
+7 Animating the Camera
 • As has been shown in previous labs, it is possible to animate the camera from a starting point to an end
 point. This time, however, we will create a slow flyby animation that moves the camera through your new
 terrain, on a loop.
